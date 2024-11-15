@@ -1,4 +1,4 @@
-import {createRouter, createWebHashHistory} from 'vue-router';
+import {createRouter, createWebHistory} from 'vue-router';
 import Landing from "../views/Landing.vue";
 import OurWorks from "@/views/OurWorks.vue";
 import About from "@/views/About.vue";
@@ -17,7 +17,7 @@ const router = createRouter({
             }, 500)
         })
     },
-    history: createWebHashHistory(),
+    history: createWebHistory(),
     routes,
 });
 export default router

@@ -24,7 +24,11 @@ function closeFn() {
             </a>
             <div class="flex items-center gap-x-8">
               <a class="inline-flex rounded-full px-4 py-1.5 text-sm font-semibold transition bg-neutral-950 text-white hover:bg-neutral-800"
-                 href="/contact"><span class="relative top-px">Contact us</span></a>
+                 href="/contact">
+                <span class="relative top-px">
+                  Contact us
+                </span>
+              </a>
               <ButtonMenu @open-navigation="closeFn"/>
             </div>
           </div>
@@ -35,7 +39,7 @@ function closeFn() {
          :class="{'activeClass': isActive, 'inactiveClass': !isActive}">
       <div class="bg-neutral-800">
         <BlackNavigation @close-fn="closeFn"/>
-        <Menu/>
+        <Menu @click="isActive = false"/>
         <div class="relative bg-neutral-950 before:absolute before:inset-x-0
         before:top-0 before:h-px before:bg-neutral-800">
           <div class="mx-auto max-w-7xl px-6 lg:px-8">
