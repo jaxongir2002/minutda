@@ -55,14 +55,16 @@ function closeFn() {
 .activeClass {
   height: 90%;
   transform: translateY(0%);
-  transition: height 0.5s ease-in-out, opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  transition: height 0.5s ease-in-out, opacity 0.5s ease-in-out,
+  transform 0.5s ease-in-out;
   overflow: hidden;
 }
 
 .inactiveClass {
-  height: 0; /* Collapse to zero */
-  transform: translateY(-100%); /* Move down slightly */
-  transition: height 0.5s ease-in-out, opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  height: 0;
+  transform: translateY(-100%);
+  transition: height 0.5s ease-in-out, opacity 0.5s ease-in-out,
+  transform 0.5s ease-in-out;
   overflow: hidden;
 }
 
