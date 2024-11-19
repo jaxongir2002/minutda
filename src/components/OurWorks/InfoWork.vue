@@ -113,17 +113,17 @@
                       class="h-12 w-12 object-cover grayscale sm:aspect-[7/9] sm:h-auto sm:w-full"
                       sizes="(min-width: 1024px) 17.625rem, (min-width: 768px) 16rem, (min-width: 640px) 40vw, 3rem"
                       srcset="
-        https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdebra-fiscal.c5e84807.jpg&w=1920&q=75 1920w,
-        https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdebra-fiscal.c5e84807.jpg&w=256&q=75 256w,
-        https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdebra-fiscal.c5e84807.jpg&w=384&q=75 384w,
-        https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdebra-fiscal.c5e84807.jpg&w=640&q=75 640w,
-        https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdebra-fiscal.c5e84807.jpg&w=750&q=75 750w,
-        https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdebra-fiscal.c5e84807.jpg&w=828&q=75 828w,
-        https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdebra-fiscal.c5e84807.jpg&w=1080&q=75 1080w,
-        https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdebra-fiscal.c5e84807.jpg&w=1200&q=75 1200w,
-        https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdebra-fiscal.c5e84807.jpg&w=1920&q=75 1920w,
-        https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdebra-fiscal.c5e84807.jpg&w=2048&q=75 2048w,
-        https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdebra-fiscal.c5e84807.jpg&w=3840&q=75 3840w"
+                      https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdebra-fiscal.c5e84807.jpg&w=1920&q=75 1920w,
+                      https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdebra-fiscal.c5e84807.jpg&w=256&q=75 256w,
+                      https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdebra-fiscal.c5e84807.jpg&w=384&q=75 384w,
+                      https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdebra-fiscal.c5e84807.jpg&w=640&q=75 640w,
+                      https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdebra-fiscal.c5e84807.jpg&w=750&q=75 750w,
+                      https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdebra-fiscal.c5e84807.jpg&w=828&q=75 828w,
+                      https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdebra-fiscal.c5e84807.jpg&w=1080&q=75 1080w,
+                      https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdebra-fiscal.c5e84807.jpg&w=1200&q=75 1200w,
+                      https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdebra-fiscal.c5e84807.jpg&w=1920&q=75 1920w,
+                      https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdebra-fiscal.c5e84807.jpg&w=2048&q=75 2048w,
+                      https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdebra-fiscal.c5e84807.jpg&w=3840&q=75 3840w"
                       src="https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdebra-fiscal.c5e84807.jpg&w=3840&q=75"
                       style="color: transparent;"
                   >
