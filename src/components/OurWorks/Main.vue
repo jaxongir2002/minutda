@@ -5,7 +5,7 @@ import TellUs from "@/ui/TellUs.vue";
 </script>
 
 <template>
-  <main class="w-full flex-auto">
+  <main class="w-full flex-auto bg-white">
     <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-24 sm:mt-32 lg:mt-40">
       <div class="mx-auto max-w-2xl lg:max-w-none">
         <div style="opacity: 1; transform: none;">
@@ -37,7 +37,7 @@ import TellUs from "@/ui/TellUs.vue";
             Case studies
           </h2>
         </div>
-        <div class="mt-10 space-y-20 sm:space-y-24 lg:space-y-32">
+        <div class="mt-10 space-y-20 sm:space-y-24 lg:space-y-32 bg">
           <WorksCard/>
         </div>
       </div>

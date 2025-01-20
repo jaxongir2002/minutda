@@ -3,9 +3,9 @@
 </script>
 
 <template>
-  <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-16">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-16 bg-white">
     <div class="mx-auto max-w-2xl lg:max-w-none">
-      <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+      <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 bg-white">
         <div class="flex" style="opacity: 1; transform: none;">
           <article
               class="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-50 sm:p-8">

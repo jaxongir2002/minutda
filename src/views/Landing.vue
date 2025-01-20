@@ -29,7 +29,7 @@ import TellUs from "@/ui/TellUs.vue";
       <Partners/>
     </div>
   </div>
-  <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-24 sm:mt-32 lg:mt-40">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-24 sm:mt-32 lg:mt-40 bg-white">
     <div class="mx-auto max-w-2xl lg:max-w-none">
       <div class="max-w-2xl" style="opacity: 1; transform: none;"><h2><span
           class="block font-display tracking-tight [text-wrap:balance] text-4xl font-medium sm:text-5xl text-neutral-950">Harnessing technology for a brighter future</span>
