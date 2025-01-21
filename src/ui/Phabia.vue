@@ -1,5 +1,7 @@
 <script setup>
+import {useI18n} from "vue-i18n";
 
+const {t} = useI18n()
 </script>
 
 <template>
@@ -35,11 +37,8 @@
           <figure class="mx-auto max-w-4xl">
             <blockquote class="relative font-display text-3xl font-medium tracking-tight text-neutral-950 sm:text-4xl">
               <p class="before:content-['“'] after:content-['”'] sm:before:absolute sm:before:right-full">
-                I just wanted
-                to take a moment to express my appreciation for the CRM system developed by Minutda. It’s
-                incredibly user-friendly and has streamlined our processes significantly. The attention to detail and
-                the responsiveness of the team have truly made a difference in our operations. Highly recommend their
-                services!</p></blockquote>
+                {{t('crmMinutda')}}
+                </p></blockquote>
             <figcaption class="mt-10">
               <img alt="Phobia" loading="lazy" width="184" height="36" decoding="async"
                    data-nimg="1" style="color:transparent"

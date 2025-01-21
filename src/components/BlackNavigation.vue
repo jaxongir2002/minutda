@@ -1,4 +1,7 @@
 <script setup>
+import {useI18n} from "vue-i18n";
+
+const {t} = useI18n()
 const emit = defineEmits(['closeFn'])
 </script>
 
@@ -7,13 +10,13 @@ const emit = defineEmits(['closeFn'])
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:max-w-none">
         <div class="flex items-center justify-between px-[80px]">
-          <a aria-label="Home" href="/" class="w-20">
+          <a aria-label="Home" href="/" class="w-[10vw]">
               <img src="@/assets/imgs/Group%2012.png">
           </a>
           <div class="flex items-center gap-x-8">
             <a class="inline-flex rounded-full px-4 py-1.5 text-sm font-semibold transition bg-white text-neutral-950 hover:bg-neutral-200"
                href="/contact">
-              <span class="relative top-px">Contact us</span>
+              <span class="relative top-px">{{t('contactUs')}}</span>
             </a>
             <button @click="emit('closeFn')" type="button" aria-expanded="true" aria-controls=":r4t:"
                     class="group -m-2.5 rounded-full p-2.5 transition hover:bg-white/10"
