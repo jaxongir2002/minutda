@@ -32,25 +32,25 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="pb-2 bg-black text-amber-600 h-[20vh] absolute w-full">
+  <div class="pb-2 bg-black text-amber-600 mt-4 w-full">
     <header class="transitionClass -mt-4">
       <div class="absolute left-0 right-0 z-40 mt-14 rounded-[100px]">
         <div class="mx-auto max-w-7xl px-6 lg:px-8 ">
           <div class="mx-auto max-w-2xl lg:max-w-none">
             <div class="flex items-center justify-between px-[80px]">
-              <a class="w-20" href="/">
+              <a class="w-[10vw]" href="/">
                 <img src="@/assets/imgs/Group%2011.png">
               </a>
               <div class="flex gap-4">
                 <form class="max-w-sm mx-auto">
                   <select
                       id="countries"
-                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 custom-select"
+                      class="bg-black border font-semibold border-gray-300 text-white text-sm rounded-2xl focus:ring-blue-500 focus:border-blue-500 block w-full p-[1.1vh] dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 custom-select"
                       v-model="selectedLanguage"
                       @change="changeLanguage"
                   >
-                    <option value="EN" class="flag-en">English</option>
-                    <option value="RU" class="flag-ru">Русский</option>
+                    <option value="EN" class="flag-en font-semibold">ENG</option>
+                    <option value="RU" class="flag-ru font-semibold">РУС</option>
                   </select>
                 </form>
                 <div class="flex items-center gap-x-8">
@@ -67,7 +67,7 @@ onMounted(() => {
           </div>
         </div>
       </div>
-      <div class="relative z-50 overflow-hidden bg-neutral-950 pt-2"
+      <div class="relative z-50 overflow-hidden bg-neutral-950 "
            :class="{'activeClass': isActive, 'inactiveClass': !isActive}">
         <div class="bg-neutral-800">
           <BlackNavigation @close-fn="closeFn"/>

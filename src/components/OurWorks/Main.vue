@@ -6,16 +6,15 @@ import TellUs from "@/ui/TellUs.vue";
 
 <template>
   <main class="w-full flex-auto bg-white">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-24 sm:mt-32 lg:mt-40">
+    <div class="mx-auto max-w-7xl px-6 z-50 lg:px-8">
       <div class="mx-auto max-w-2xl lg:max-w-none">
-        <div style="opacity: 1; transform: none;">
+        <div style="opacity: 1; transform: none; z-index: 900 !important;">
           <h1>
             <span class="block font-display text-base font-semibold text-neutral-950">
-              Our work
             </span>
             <span class="sr-only"> - </span>
             <span
-                class="mt-6 block max-w-5xl font-display
+                class="mt-6 sm:pt-[15vh] block max-w-5xl font-display
                  text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-6xl">
               Proven solutions for real-world problems.
             </span>

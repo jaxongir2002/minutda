@@ -1,4 +1,7 @@
 <script setup>
+import {useI18n} from "vue-i18n";
+
+const {t} = useI18n()
 
 </script>
 
@@ -7,8 +10,9 @@
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:max-w-none">
         <div class="flex items-center gap-x-8" style="opacity: 1; transform: none;"><h2
-            class="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">We’ve worked
-          with hundreds of amazing people</h2>
+            class="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
+          {{t('workedWith')}}
+        </h2>
           <div class="h-px flex-auto bg-neutral-800"></div>
         </div>
         <div>

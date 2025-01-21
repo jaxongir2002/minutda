@@ -1,7 +1,6 @@
 <script setup>
 import Main from "@/components/OurWorks/Main.vue";
 </script>
-
 <template>
   <Main/>
 </template>
