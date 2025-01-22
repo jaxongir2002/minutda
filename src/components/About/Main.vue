@@ -3,8 +3,8 @@
 </script>
 
 <template>
-  <main class="w-full flex-auto">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-24 sm:mt-32 lg:mt-40">
+  <main class="w-full flex-auto bg-white mt-10">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 pt-24 sm:pt-32 lg:pt-40">
       <div class="mx-auto max-w-2xl lg:max-w-none">
         <div style="opacity: 1; transform: none;"><h1><span
             class="block font-display text-base font-semibold text-neutral-950">About us</span><span

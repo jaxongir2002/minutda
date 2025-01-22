@@ -6,7 +6,7 @@ const {t} = useI18n();
 </script>
 
 <template>
-  <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-24 sm:mt-32 lg:mt-40 bg-white">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8  bg-white">
     <div class="mx-auto max-w-2xl lg:max-w-none">
       <div class="max-w-2xl" style="opacity: 1; transform: none;"><h2>
         <span class="mb-6 block font-display text-base font-semibold text-neutral-950">
@@ -26,7 +26,7 @@ const {t} = useI18n();
       </div>
     </div>
   </div>
-  <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-16 bg-white">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8 pt-16 bg-white">
     <div class="mx-auto max-w-2xl lg:max-w-none">
       <div class="lg:flex lg:items-center lg:justify-end">
         <div class="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">

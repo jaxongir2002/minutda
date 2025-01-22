@@ -34,7 +34,7 @@ onMounted(() => {
 <template>
   <div class="pb-2 bg-black text-amber-600 mt-4 w-full">
     <header class="transitionClass -mt-4">
-      <div class="absolute left-0 right-0 z-40 mt-14 rounded-[100px]">
+      <div class="absolute bg-white left-0 right-0 z-40 pt-16 rounded-4xl">
         <div class="mx-auto max-w-7xl px-6 lg:px-8 ">
           <div class="mx-auto max-w-2xl lg:max-w-none">
             <div class="flex items-center justify-between px-[80px]">

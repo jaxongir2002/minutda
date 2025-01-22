@@ -5,7 +5,7 @@ import TellUs from "@/ui/TellUs.vue";
 </script>
 
 <template>
-  <main class="w-full flex-auto bg-white">
+  <main class="w-full flex-auto bg-white rounded-4xl">
     <div class="mx-auto max-w-7xl px-6 z-50 lg:px-8">
       <div class="mx-auto max-w-2xl lg:max-w-none">
         <div style="opacity: 1; transform: none; z-index: 900 !important;">
