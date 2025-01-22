@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-24 sm:mt-32 lg:mt-40">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8 pt-24 sm:pt-32 lg:pt-40 bg-white">
     <div class="mx-auto max-w-2xl lg:max-w-none">
       <div class="-mx-6 rounded-4xl bg-neutral-950 px-6 py-20 sm:mx-0 sm:py-32 md:px-12"
            style="opacity: 1; transform: none;">

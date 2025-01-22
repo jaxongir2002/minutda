@@ -5,7 +5,7 @@ const {t} = useI18n()
 </script>
 
 <template>
-  <footer class="mx-auto max-w-7xl px-6 lg:px-8 mt-24 w-full sm:mt-32 lg:mt-40">
+  <footer class="mx-auto max-w-7xl px-6 lg:px-8 mt-10 w-full sm:pt-32 lg:pt-40 bg-white">
     <div class="mx-auto max-w-2xl lg:max-w-none">
       <div style="opacity: 1; transform: none;">
         <div class="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2">

@@ -5,7 +5,7 @@ const {t} = useI18n()
 </script>
 
 <template>
-  <div class="relative isolate bg-neutral-50 py-16 sm:py-28 md:py-32 mt-24 sm:mt-32 lg:mt-40">
+  <div class="relative isolate bg-neutral-50 py-16 sm:py-28 md:py-32 pt-20">
     <svg aria-hidden="true"
          class="absolute inset-0 -z-10 h-full w-full fill-neutral-100 stroke-neutral-950/5 [mask-image:linear-gradient(to_bottom_left,white_50%,transparent_60%)]">
       <rect width="100%" height="100%" fill="url(#:Rp7qlba:)" stroke-width="0"></rect>
